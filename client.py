@@ -5,7 +5,7 @@ import random
 
 def makeList():
     message = []
-    for i in range(10):
+    for i in range(random.randint(5,20)):
         message.append(random.randint(0,10))
     return message
 
